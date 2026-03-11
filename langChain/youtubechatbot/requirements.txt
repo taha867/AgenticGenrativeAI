@@ -1,0 +1,7 @@
+# YouTube RAG chatbot
+youtube-transcript-api
+langchain-community
+langchain-google-genai
+langchain-text-splitters
+faiss-cpu
+python-dotenv
