@@ -1,0 +1,25 @@
+[project]
+name = "personal-ai-assistant"
+version = "0.1.0"
+description = "Personal AI Research & Knowledge Assistant – Backend"
+readme = "OVERVIEW.md"
+requires-python = ">=3.12"
+dependencies = []  # Use requirements.txt for install
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+
+[tool.mypy]
+python_version = "3.12"
+warn_return_any = true
+warn_unused_ignores = true
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["."]
